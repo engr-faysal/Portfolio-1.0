@@ -6,30 +6,35 @@
     <meta name="description" content="I am a web developer">
     <meta name="author" content="Md. Faysal Imran">
 
+    <link rel="icon" type="image/x-icon" href="./asset/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>MR-X</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0"> 
 
-<!-- Navigation Start -->   
-    <header>
-        <nav class="navbar navbar-expand-lg sticky-top shadow-sm py-3">
+        <!-- Navigation Start -->   
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm bg-light py-3">
             <div class="container px-5">
-                <a class="navbar-brand fw-bold text-primary" href="index.html"> MR-X</a>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-label="Menu">
+
+                <a class="navbar-brand" href="index.html">
+                    <span class="fw-bolder text-primary">MR-X</span>
+                </a>
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-label="Navbar Menu List" aria-expanded="false" aria-controls="navbarMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav small fw-bolder mb-2 mb-lg-0 ms-auto" >
                         <li class="nav-item">
                             <a class="nav-link fw-bold text" href="index.html">Home</a>
                         </li>
                         <li>
-                            <a class="nav-link fw-bold" href="contact.html">Resume</a>
+                            <a class="nav-link fw-bold" href="resume.html">Resume</a>
                         </li>
                         <li>
                             <a class="nav-link fw-bold" href="projects.html">Projects</a>
@@ -42,39 +47,37 @@
                 </div>
             </div>
         </nav>
-    </header>
-<!-- Navigation End -->
+        <!-- Navigation End -->
 
+        
 
+    </main>
 
+    <!-- Footer Start -->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row justify-content-between align-items-center flex-column flex-sm-row">
 
+                    <div class="col-auto">
+                        <div class="small ">Copyright &copy; Your Website 2023</div>
+                    </div>
 
+                    <div class="col-auto pe-lg-4">
+                        <a href="#!">Privacy</a>
+                        <span class="mx-2"> &middot;</span>
+                        <a href="#!">Terms</a>
+                        <span class="mx-2"> &middot;</span>
+                        <a href="#!">Policy</a>
+                    </div>
 
-
-<!-- Footer Start -->
-    <footer class="bg-light">
-        <div class="container py-4 px-lg-5">
-            <div class="row justify-content-between align-items-center flex-column flex-sm-row">
-
-                <div class="col-auto">
-                    Copyright &copy; Your Website 2023
                 </div>
-
-                <div class="col-auto pe-lg-4">
-                    <a href="#!">Privacy</a>
-                    <span class="mx-2"> &middot;</span>
-                    <a href="#!">Terms</a>
-                    <span class="mx-2"> &middot;</span>
-                    <a href="#!">Policy</a>
-                </div>
-
             </div>
-        </div>
-    </footer>    
-<!-- Footer End -->
+        </footer>    
+    <!-- Footer End -->
+
 
 
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/scripts.js"></script>
 </body>
-</html
+</html>
