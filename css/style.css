@@ -90,7 +90,7 @@ html{
 .feature {
     height: 3rem;
     width: 3rem;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;

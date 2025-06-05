@@ -13,11 +13,11 @@
     <title>MR-X</title>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column">
     <main class="flex-shrink-0"> 
 
         <!-- Navigation Start -->   
-        <nav class="navbar navbar-expand-lg sticky-top shadow-sm bg-light py-3">
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm bg-white py-3">
             <div class="container px-5">
 
                 <a class="navbar-brand" href="index.html">
@@ -48,9 +48,53 @@
             </div>
         </nav>
         <!-- Navigation End -->
-
         
+        <!-- Page Content -->
+        <section class="py-5">
+            <div class="container px-5">
+                <!-- contact Form Start -->
+                <div class="bg-light rounded-4 border-0 py-5 px-4 px-md-5">
+                    <div class="text-center mb-5">
+                        <div class="feature bg-gradient-primary-to-secondary rounded-2 text-white mb-3"><i class="bi bi-envelope"></i></div>
+                        <h1 class="fw-bold">Get in touch</h1>
+                        <p class="fs-5 text-muted">Let's work together!</p>
+                    </div>
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
 
+                            <form id="contact form">
+                                <!-- Name Input -->
+                                <div class="form-floating mb-3">
+                                    <input type="text" id="name" placeholder="Enter Your Name..." class="form-control">
+                                    <label for="name" class="form-label">Full Name</label>
+                                </div>
+                                <!-- Email Input -->
+                                <div class="form-floating mb-3">
+                                    <input type="email" id="email" placeholder="someone@example.xom" class="form-control">
+                                    <label for="email" class="form-label">Email address</label>
+                                </div>
+                                <!-- Phone Number Input -->
+                                <div class="form-floating mb-3">
+                                    <input type="tel" id="number" placeholder="(880) 4567897856" class="form-control">
+                                    <label for="number" class="form-label">Phone Number</label>
+                                </div>
+                                <!-- Message Input -->
+                                <div class="form-floating mb-3">
+                                    <textarea name="message" id="message" placeholder="Enter Your Message Here..." class="form-control" style="height: 10rem;"></textarea>
+                                    <label for="message" class="form-label">Message</label>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-lg" id="submitButton" type="submit">submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form End -->
+            </div>
+        </section>
     </main>
 
     <!-- Footer Start -->
